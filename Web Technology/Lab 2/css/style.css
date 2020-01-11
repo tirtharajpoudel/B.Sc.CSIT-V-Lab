@@ -1,0 +1,102 @@
+body, ul, p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+footer{
+    background-color: yellow;
+    padding: 2%;
+}
+
+.logo {
+    background-color: blue;
+    width: 44%;
+    padding: 3%;
+}
+
+.contact {
+    background-color: green;
+    width: 44%;
+    padding: 3%;
+    text-align: right;
+}
+
+#navbar{
+    padding: 0.5% 0%;
+    background-color: white;
+}
+
+#navbar ul {
+    display : flex;
+    background-color: red;  
+    padding: 1% 0%;
+    justify-content: left ;
+}
+
+#navbar ul li{
+    list-style: none;
+    width: 12%;
+    margin: 0px 20px;
+    background-color: yellow;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    display: block;
+    width: 96%;
+    padding:2% 2%;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: gray;
+}
+
+section{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: blue;
+    padding: 5%;
+    width: 30%;
+}
+
+.main {
+    background-color: green;
+    padding: 5%;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    header { flex-direction: column;}
+    
+    .logo, .contact { width: 94%;}
+
+    nav ul{ flex-direction: column;}
+
+    #navbar ul li{
+        width:98%;
+        margin:1%;
+    }
+
+    nav ul li a{
+        width: 98%;
+        padding:2%;
+        text-align: centre;
+    }
+
+    section{ flex-direction: column; }
+
+    .sidebar, .main {
+        width: 94%;
+        padding:3%;
+    }
+
+    footer{ width:96%; }
+}

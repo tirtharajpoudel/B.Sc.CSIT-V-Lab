@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+div {
+    position: absolute;
+    padding: 3%;
+    background-color: red;
+    animation-name: movement;
+    animation-duration: 16s;
+}
+@keyframes movement {
+    0% {
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+    25% {
+        left:200px;
+        top: 0px;
+        background-color: blue;
+        transform: rotate(90deg);
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+        background-color: green;
+        transform: rotate(180deg);
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+        background-color: yellow;
+        transform: rotate(270deg);
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+}
+

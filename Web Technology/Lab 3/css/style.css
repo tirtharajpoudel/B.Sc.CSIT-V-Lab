@@ -1,0 +1,45 @@
+body,ul,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#D19C00;
+    padding: 1%;
+    text-align: center;
+}
+
+header input[type="text"]{
+    background-color: #FFC107;
+    border: none;
+    padding: 2px;
+}
+
+.title{
+    background-color: yellow;
+    padding: 2%;
+    font-size: 30px;
+}
+
+section{
+    background-color:orange;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+section div{
+    width:30%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 5px 5px red;
+}
+
+section div img{
+    width: 100%;
+}
+
+footer{
+    background-color:#D19C00;
+    padding: 2%;
+}
