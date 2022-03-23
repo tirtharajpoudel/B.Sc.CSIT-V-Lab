@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<book>
+		<title>Web Technology</title>
+		<price>$123</price>
+		<author>Ram Thapa</author>
+		<isbn>12345</isbn>
+	</book>
+	<book>
+		<title>Computer Fundamentals</title>
+		<price>$93</price>
+		<author>Ajay Shah</author>
+		<isbn>12353</isbn>
+	</book>
+	<book>
+		<title>Discrete Mathematics</title>
+		<price>$321</price>
+		<author>Thomas Butler</author>
+		<isbn>43216</isbn>
+	</book>
+</bookstore>

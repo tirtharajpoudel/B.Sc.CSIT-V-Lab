@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+<bookstore>
+	<book>
+		<title>Machine Learning</title>
+		<price>रू 5600</price>
+		<author>Tirtha Raj Poudel</author>
+		<isbn>55674</isbn>
+	</book>
+	<book>
+		<title>Neural Networks</title>
+		<price>रू 3400</price>
+		<author>Tirtha's Son</author>
+		<isbn>38992</isbn>
+	</book>
+	<book>
+		<title>Recipe of Potato</title>
+		<price>रू 1200</price>
+		<author>Mrs. Poudel</author>
+		<isbn>43216</isbn>
+	</book>
+</bookstore>
